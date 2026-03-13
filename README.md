@@ -22,6 +22,16 @@
 - **One-Click Copy**: Conveniently copy your newly generated secure password to the clipboard with a single click.
 - **Modern UI/UX**: Features a beautiful dark/light blue gradient background, smooth CSS transitions, and an elegant glass-like container card.
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="image1.png" alt="Password Generator - UI View" width="80%" style="border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+  <br />
+  <img src="image2.png" alt="Password Generator - Settings" width="80%" style="border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+  <br />
+  <img src="image3.png" alt="Password Generator - Output" width="80%" style="border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+</div>
+
 ## 🚀 How to Use (Locally)
 
 This project does not require any backend or external server. Simply download the files and run it in your favorite browser!
