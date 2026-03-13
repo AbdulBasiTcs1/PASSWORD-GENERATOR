@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="demo.webp" alt="Password Generator Demo" width="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+  <video controls src="demo.mp4" alt="Password Generator Demo" width="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
 
   <h1>🔐 Secure Password Generator</h1>
   <p>A sleek, interactive, and customizable random password generator built from scratch with HTML, CSS, and Vanilla JavaScript. I am getting confident in WEB DEVELOPMENT and this is a great practice project!</p>
