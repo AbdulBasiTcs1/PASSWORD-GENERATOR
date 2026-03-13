@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PASSWORD GENERATOR</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
+
 <body>
 
     <div class="container">
         <h1>Paswword Generator</h1>
 
         <div class="password-container">
-            <input type="text" readonly id="password">   
+            <input type="text" readonly id="password">
             <i class="far fa-copy" id="copy-btn" title="Copy to clipboard"></i>
         </div>
 
@@ -26,9 +27,38 @@
                     <span id="length-value">12</span>
                 </div>
             </div>
+            <div class="option">
+                <label for="uppercase">Include Uppercase</label>
+                <input type="checkbox" checked id="uppercase">
+            </div>
+            <div class="option">
+                <label for="lowercase">Include Lowercase</label>
+                <input type="checkbox" checked id="lowercase">
+            </div>
+            <div class="option">
+                <label for="numbers">Include Numbers</label>
+                <input type="checkbox" checked id="numbers">
+            </div>
+            <div class="option">
+                <label for="symbols">Include Symbols</label>
+                <input type="checkbox" checked id="symbols">
+            </div>
+        </div>
+
+        <button id="generate-btn">
+            <i class="fas fa-key"></i>
+            Generate Password
+        </button>
+
+        <div class="string-container">
+            <p>Password Strength: <span id="strength-label">Medium</span></p>
+            <div class="strength-meter">
+                <div class="strength-bar"></div>
+            </div>
         </div>
 
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
